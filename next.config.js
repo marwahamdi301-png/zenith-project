@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  outputFileTracingRoot: process.cwd(),
+  reactStrictMode: true,
+  outputFileTracingRoot: __dirname,
 }
+
 module.exports = nextConfig
